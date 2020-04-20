@@ -77,11 +77,11 @@ class App extends Component {
     return ( 
       <MuiThemeProvider theme={theme}>
       <Provider store={store}>
-        <Router>
+        <Router basename="/socialApp/">
         <Navbar />
         <div className="container">
           <Switch>
-            <Route exact path="/socialApp/" component={home} />
+            <Route exact path="/" component={home} />
             <AuthRoute exact path="/login" component={login}/>
             <AuthRoute exact path="/signup" component={signup}/>
             <Route exact path="/users/:handle" component={user} />
