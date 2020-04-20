@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const loginUser = (userData, history) => (dispatch) => {
     dispatch({type: LOADING_UI});
-    axios.post('/socialApp/login', userData)
+    axios.post('/login', userData)
             .then((res) => {
                 setAuthorizationHeader(res.data.token)
                 dispatch(getUserData());
