@@ -19,6 +19,7 @@ import login from './pages/login';
 import signup from './pages/signup';
 import user from './pages/user';
 
+axios.defaults.baseURL = "https://us-central1-social-f8dfa.cloudfunctions.net/api";
 const theme = createMuiTheme({
   palette: {
     primary:{
@@ -80,7 +81,7 @@ class App extends Component {
         <Navbar />
         <div className="container">
           <Switch>
-            <Route exact path="/" component={home} />
+            <Route exact path="/socialApp/" component={home} />
             <AuthRoute exact path="/login" component={login}/>
             <AuthRoute exact path="/signup" component={signup}/>
             <Route exact path="/users/:handle" component={user} />
