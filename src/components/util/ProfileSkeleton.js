@@ -3,15 +3,10 @@ import PropTypes from 'prop-types';
 import withStyles from '@material-ui/styles/withStyles';
 import NoImg from '../../images/no-img.png';
 
-import Button from '@material-ui/core/Button';
-import { connect } from 'react-redux';
 import Paper from '@material-ui/core/Paper';
-import MuiLink from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
-import EditIcon from '@material-ui/icons/Edit';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import LinkIcon from '@material-ui/icons/Link';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 
 
 const styles = theme => ({
@@ -78,7 +73,7 @@ const ProfileSkeleton = (props) => {
                     <hr />
                     <LinkIcon color="primary" /> https://website.com
                     <hr />
-                    Joined date
+                    <CalendarTodayIcon color="primary"><span> </span>Joined date
                 </div>
             </div>
         </Paper>
