@@ -15,7 +15,8 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 const styles = {
     submitButton: {
-        position: 'relative'
+        position: 'relative',
+        margin:'20px 20px 20px 0px',
     },
     progressSpinner: {
         position: 'absolute',

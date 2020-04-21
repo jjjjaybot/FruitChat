@@ -4,7 +4,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import {Link} from 'react-router-dom';
 import EditDetails from './EditDetails';
 import ProfileSkeleton from '../util/ProfileSkeleton';
-
+import dayjs from 'dayjs';
 
 //MUI
 import Button from '@material-ui/core/Button';
@@ -16,6 +16,8 @@ import EditIcon from '@material-ui/icons/Edit';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import LinkIcon from '@material-ui/icons/Link';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import CalendarToday from '@material-ui/icons/CalendarToday';
+import Alert from '@material-ui/lab/Alert';
 //Redux
 import {logoutUser, uploadImage} from '../../redux/actions/userActions';
 import MyButton from '../util/MyButton';
@@ -26,6 +28,9 @@ const styles = {
         padding: 20,
         marginLeft: 20,
         marginRight: 20,
+    },
+    buttons: {
+        margin: 20,
     },
     profile: {
         '& .image-wrapper':{
@@ -106,6 +111,9 @@ class Profile extends Component {
                                 <hr />
                             </>
                         )}
+                        <CalendarToday color="primary" />{' '}
+                        <span>Joined {dayjs(createdAt).format('MMM YYYY')}</span>
+
                     </div>
                     <MyButton tip="Log out" onClick={this.handleLogout} >
                             <ExitToAppIcon color="primary" />
@@ -115,12 +123,10 @@ class Profile extends Component {
             </Paper>
         ):(
             <Paper className={classes.paper}>
-                <Typography variant="body2" align="center">
-                    No profile found, please login again
-                </Typography>
+                <Alert severity="info" align="center">It looks like that you are not logged in...</Alert>
                 <div className={classes.buttons}>
-                    <Button variant="contained" color="primary" component={Link} to="/login">Login</Button>
-                    <Button variant="contained" color="secondary" component={Link} to="/signup">Signup</Button>
+                    <Button className={classes.buttons} variant="contained" color="primary" component={Link} to="/login">Login</Button>
+                    <Button className={classes.buttons} variant="contained" color="secondary" component={Link} to="/signup">Signup</Button>
                 </div>
             </Paper>
         )) : (<ProfileSkeleton />)

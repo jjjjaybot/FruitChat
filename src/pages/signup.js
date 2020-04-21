@@ -13,9 +13,11 @@ import { CircularProgress } from '@material-ui/core';
 //Redux
 import {connect} from 'react-redux';
 import {signupUser} from '../redux/actions/userActions';
-const styles = (theme) => ({
-    // ...theme
-})
+const styles = {
+    button: {
+        margin: '20px 20px 20px 0px',
+    }
+}
 
 export class signup extends Component {
     constructor(){
@@ -48,23 +50,6 @@ export class signup extends Component {
             handle: this.state.handle
         }
         this.props.signupUser(newUserData, this.props.history);
-        // axios.post('/signup', newUserData)
-        //     .then((res) => {
-        //         localStorage.setItem('FBIdToken', `Bearer ${res.data.token}`);
-        //         console.log(res.data);
-        //         this.setState({
-        //             loading: false
-        //         });
-        //         this.props.history.push('/');
-        //     })
-        //     .catch(err => {
-        //         console.log(err);
-        //         this.setState({
-        //             errors: err.response.data,
-        //             loading: false,
-        //         })
-        //         console.log(this.state.errors)
-        //     })
     }
 
     handleChange = (event) => {
@@ -79,7 +64,7 @@ export class signup extends Component {
             <Grid container className={classes.form}>
                 <Grid item sm />
                 <Grid item sm >
-                <img src={SocialIcon} alt="logo" />
+                <img src={SocialIcon} height="100" width="100" alt="logo" />
                 <Typography variant="h2" className={classes.pageTitle}>Sign Up</Typography>
                 <form noValidate onSubmit={this.handleSubmit}>
                     <TextField id="email" name="email" type="email" label="email" className={classes.textField}

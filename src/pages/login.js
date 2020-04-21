@@ -14,7 +14,9 @@ import { connect } from 'react-redux';
 import {loginUser} from '../redux/actions/userActions';
 
 const styles = (theme) => ({
-    // ...theme
+    button: {
+        margin: '20px 20px 20px 0px',
+    }
 })
 
 
@@ -57,7 +59,7 @@ export class login extends Component {
             <Grid container className={classes.form}>
                 <Grid item sm />
                 <Grid item sm >
-                <img src={SocialIcon} alt="logo" />
+                <img src={SocialIcon} height="100" width="100" alt="logo" />
                 <Typography variant="h2" className={classes.pageTitle}>Login</Typography>
                 <form noValidate onSubmit={this.handleSubmit}>
                     <TextField id="email" name="email" type="email" label="email" className={classes.textField}
@@ -74,7 +76,7 @@ export class login extends Component {
                             {errors.general}
                         </Typography>
                     )}
-                    <Button type="submit" variant="contained" className={classes.button} disabled={loading}>LOGIN
+                    <Button type="submit" variant="contained" color="primary" className={classes.button} disabled={loading}>LOGIN
                     {loading && (
                         <CircularProgress size={30} className={classes.progress} />
                     )}
