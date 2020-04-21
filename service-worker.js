@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FruitChat/precache-manifest.e13d5dfebd6ea2c0a48a4c3084bd3f22.js"
+  "/FruitChat/precache-manifest.f88ff48f748f6579f1f144c8e9d9f181.js"
 );
 
 self.addEventListener('message', (event) => {
