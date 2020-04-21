@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/socialApp/static/css/main.04eb1423.chunk.css",
-    "main.js": "/socialApp/static/js/main.94c8d65e.chunk.js",
-    "main.js.map": "/socialApp/static/js/main.94c8d65e.chunk.js.map",
+    "main.js": "/socialApp/static/js/main.42b9c875.chunk.js",
+    "main.js.map": "/socialApp/static/js/main.42b9c875.chunk.js.map",
     "runtime-main.js": "/socialApp/static/js/runtime-main.1717ce8a.js",
     "runtime-main.js.map": "/socialApp/static/js/runtime-main.1717ce8a.js.map",
     "static/js/2.8a58a604.chunk.js": "/socialApp/static/js/2.8a58a604.chunk.js",
     "static/js/2.8a58a604.chunk.js.map": "/socialApp/static/js/2.8a58a604.chunk.js.map",
     "index.html": "/socialApp/index.html",
-    "precache-manifest.b9ae813570372031cddbb60119b53093.js": "/socialApp/precache-manifest.b9ae813570372031cddbb60119b53093.js",
+    "precache-manifest.74d9a43306af6e8cad5a43ea244168da.js": "/socialApp/precache-manifest.74d9a43306af6e8cad5a43ea244168da.js",
     "service-worker.js": "/socialApp/service-worker.js",
     "static/css/main.04eb1423.chunk.css.map": "/socialApp/static/css/main.04eb1423.chunk.css.map",
     "static/js/2.8a58a604.chunk.js.LICENSE.txt": "/socialApp/static/js/2.8a58a604.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1717ce8a.js",
     "static/js/2.8a58a604.chunk.js",
     "static/css/main.04eb1423.chunk.css",
-    "static/js/main.94c8d65e.chunk.js"
+    "static/js/main.42b9c875.chunk.js"
   ]
 }
