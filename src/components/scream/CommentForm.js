@@ -13,6 +13,9 @@ import { CLEAR_ERRORS } from '../../redux/types';
 
 const styles = theme => ({
     // ...theme
+    button:{
+        margin: '20px 20px 0px 20px',
+    }
 })
 class CommentForm extends Component {
     state = { 
