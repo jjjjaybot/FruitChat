@@ -24,7 +24,7 @@ const styles = {
         position: 'relative',
     },
     image: {
-        minWidth: 200,
+        minWidth: 175,
     },
     content: {
         padding: 25,
@@ -59,6 +59,7 @@ export class Scream extends Component {
                 image={imageUrl}
                 title="Profile image"
                 className={classes.image}
+
                 />
                 <CardContent className={classes.content}>
                     <Typography variant="h5" component={Link} to={`/users/${userHandle}`}>{userHandle}</Typography>
