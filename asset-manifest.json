@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/FruitChat/static/css/main.04eb1423.chunk.css",
-    "main.js": "/FruitChat/static/js/main.1876a5cf.chunk.js",
-    "main.js.map": "/FruitChat/static/js/main.1876a5cf.chunk.js.map",
+    "main.js": "/FruitChat/static/js/main.0b51832e.chunk.js",
+    "main.js.map": "/FruitChat/static/js/main.0b51832e.chunk.js.map",
     "runtime-main.js": "/FruitChat/static/js/runtime-main.f31a56a9.js",
     "runtime-main.js.map": "/FruitChat/static/js/runtime-main.f31a56a9.js.map",
-    "static/js/2.29bc4baf.chunk.js": "/FruitChat/static/js/2.29bc4baf.chunk.js",
-    "static/js/2.29bc4baf.chunk.js.map": "/FruitChat/static/js/2.29bc4baf.chunk.js.map",
+    "static/js/2.56ce3c00.chunk.js": "/FruitChat/static/js/2.56ce3c00.chunk.js",
+    "static/js/2.56ce3c00.chunk.js.map": "/FruitChat/static/js/2.56ce3c00.chunk.js.map",
     "index.html": "/FruitChat/index.html",
-    "precache-manifest.f88ff48f748f6579f1f144c8e9d9f181.js": "/FruitChat/precache-manifest.f88ff48f748f6579f1f144c8e9d9f181.js",
+    "precache-manifest.17171e737c8cca73e646fe1230ea0799.js": "/FruitChat/precache-manifest.17171e737c8cca73e646fe1230ea0799.js",
     "service-worker.js": "/FruitChat/service-worker.js",
     "static/css/main.04eb1423.chunk.css.map": "/FruitChat/static/css/main.04eb1423.chunk.css.map",
-    "static/js/2.29bc4baf.chunk.js.LICENSE.txt": "/FruitChat/static/js/2.29bc4baf.chunk.js.LICENSE.txt",
+    "static/js/2.56ce3c00.chunk.js.LICENSE.txt": "/FruitChat/static/js/2.56ce3c00.chunk.js.LICENSE.txt",
     "static/media/no-img.png": "/FruitChat/static/media/no-img.5a021ab9.png",
     "static/media/sociallogo.png": "/FruitChat/static/media/sociallogo.38c19b99.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f31a56a9.js",
-    "static/js/2.29bc4baf.chunk.js",
+    "static/js/2.56ce3c00.chunk.js",
     "static/css/main.04eb1423.chunk.css",
-    "static/js/main.1876a5cf.chunk.js"
+    "static/js/main.0b51832e.chunk.js"
   ]
 }

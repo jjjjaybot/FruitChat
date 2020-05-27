@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b15a6907a7a5b71c1186364071c5b8",
+    "revision": "9fb88f5aec1a23081d85a69c74401343",
     "url": "/FruitChat/index.html"
   },
   {
-    "revision": "b608e8dcfaaf0fefb783",
+    "revision": "10ad234b211eb986b8d3",
     "url": "/FruitChat/static/css/main.04eb1423.chunk.css"
   },
   {
-    "revision": "ce668827e098961ebaf6",
-    "url": "/FruitChat/static/js/2.29bc4baf.chunk.js"
+    "revision": "86c6b709bb766b6e5a56",
+    "url": "/FruitChat/static/js/2.56ce3c00.chunk.js"
   },
   {
     "revision": "eac4cf64bf573541fd6dba29c78393a0",
-    "url": "/FruitChat/static/js/2.29bc4baf.chunk.js.LICENSE.txt"
+    "url": "/FruitChat/static/js/2.56ce3c00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b608e8dcfaaf0fefb783",
-    "url": "/FruitChat/static/js/main.1876a5cf.chunk.js"
+    "revision": "10ad234b211eb986b8d3",
+    "url": "/FruitChat/static/js/main.0b51832e.chunk.js"
   },
   {
     "revision": "b7969b11bf6bb3b0dea7",
